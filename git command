@@ -1,0 +1,20 @@
+install git
+git init
+git status
+git add file
+git config --global user.name "abc"
+git config --global user.email abc@gmail.com
+git commit -m"first commit"
+echo test>>list.py (this means in list.py file add word test)
+git commit -am"fix the bug" (1 insertion and 1 deletion)
+git diff --staged(shows changes)
+git difftool --staged (shows changes withtool)
+git log --oneline(shows all operations)
+git ls-tree HEAD~1(shows all list of the file)
+git restore --staged 
+mkdir logs
+echo hello >logs/dev.logs
+git status
+echo logs/>.gitignore
+code .gitignore
+
