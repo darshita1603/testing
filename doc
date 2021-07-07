@@ -1,0 +1,15 @@
+ Repr just throws an object constructor representation at us for the given object.
+
+eval(str)
+Evaluates a string and returns an object.
+
+eval = eval(input("Enter any number of your choice"))
+print(eval)
+print(type(eval))
+o/p:- <class 'int'>
+
+without eval o/p is <class 'str'>
+
+check data type method is isstance()
+
+
